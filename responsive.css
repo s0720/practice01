@@ -42,8 +42,8 @@
     }
     
     .nav-content {
-	    width: 300px;
-	    max-width: 300px;
+	    width: 100px;
+	    max-width: 100px;
     }
 
     aside {
@@ -64,6 +64,7 @@
     
     main {
         width:100%;
+        padding-left:0px;
     }
 
     .sec_inner_1 {
