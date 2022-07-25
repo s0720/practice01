@@ -77,7 +77,7 @@
         color:#707070;
     }
 
-    .smp-icon{
+    .sp-header-icon {
         display:none;
     }
 
@@ -123,7 +123,7 @@
 
     .nav-content {
 	    background-color: white;
-	    width: 100%;
+	    width: 30%;
 	    max-width: 30%;
 	    height: 100%;
 	    position: fixed;
