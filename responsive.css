@@ -6,8 +6,12 @@
         font-size:10px;
     }
 
+    .header-con {
+        width:90%;
+    }
+
     .header-logo img {
-        width:50%;
+        width:40%;
     }
 
     .header-menu a{
@@ -19,12 +23,12 @@
         padding-right:0px;
     }
 
-    .fa-circle-user {
+    .header-icon {
         display:none;
     }
 
-    .fa-heart {
-        display:none;
+    .sp-header-icon {
+        display:block;
     }
 
     #global_nav {
