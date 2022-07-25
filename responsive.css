@@ -28,7 +28,7 @@
     }
 
     .sp-header-icon {
-        display: inline, i !important;
+        display: inline-block!important;
     }
 
     #global_nav {
