@@ -1,3 +1,4 @@
+
 @media screen and (max-width:670px) {
     .header-ad {
         height:50px;
@@ -42,8 +43,29 @@
     }
     
     .nav-content {
-	    width: 50%;
-	    max-width: 50%;
+	    width: 300px;
+	    max-width: 300px;
     }
+
+    aside {
+        width:0%;
+    }
+
+    main {
+        width:100%;
+    }
+
+    .sec_inner_1 {
+        width:670px;
+        height:670px;
+        margin:0 auto;
+        text-align: center;
+    }
+    
+    .slider-img-1{
+        width:80%;
+    }
+
+    
 
 }
