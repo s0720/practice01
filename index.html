@@ -112,4 +112,42 @@
               <p class="side-menu-list">ショップブランドから探す</p>
               <p class="side-menu-list">商品コレクションから探す</p>
             </aside>
+            <main>
+                <div class="sec_inner_1">
+                    <div class="slider-1">   
+                      <div><img class="slider-img-1" src="https://www.muk-webshop.com/wp-content/uploads/2020/11/1-sale-2.jpg"></div>
+                      <div><img class="slider-img-1" src="https://www.muk-webshop.com/wp-content/uploads/2020/11/1-coffeegold-1.jpg"></div>
+                      <div><img class="slider-img-1" src="https://www.muk-webshop.com/wp-content/uploads/2022/06/1-contents2206.jpg"></div>
+                      <div><img class="slider-img-1" src="https://www.muk-webshop.com/wp-content/uploads/2020/11/1-japan-2.jpg"></div>
+                      <div><img class="slider-img-1" src="https://www.muk-webshop.com/wp-content/uploads/2020/11/1-deformationmetal.jpg"></div>
+                      <div><img class="slider-img-1" src="https://www.muk-webshop.com/wp-content/uploads/2020/11/1-earcuff-3.jpg"></div>   
+                    </div>
+                  </div>
+            </main>
+        
+        <script>
+            var nav_pos = $("#global_nav").offset().top;
+            var nav_height = $("#global_nav").outerHeight();
+            $(window).scroll(function () {
+            if ($(this).scrollTop() > nav_pos) {
+            $("body").css("padding-top", nav_height);
+            $("#global_nav").addClass("fixed");
+            } else {
+            $("body").css("padding-top", 0);
+            $("#global_nav").removeClass("fixed");
+            }
+            });
+        </script>
+              
+        <script>
+            $('.slider-1').slick({
+            autoplay: true,         //自動再生
+            autoplaySpeed: 2000,  //自動再生のスピード
+            speed: 800,  //スライドするスピード
+            dots: true, //スライドしたのドット
+            arrows: true,          //左右の矢印
+            infinite: true, //スライドのループ
+            pauseOnHover: false,   //ホバーしたときにスライドを一時停止しない　
+            });
+        </script>
     </body>
