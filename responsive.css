@@ -70,11 +70,19 @@
     .sec_inner_1 {
         width:400px;
         height:400px;
-        margin:0 auto;
+        margin-left:-30px;
     }
     
     .slider-img-1{
         width:100%;
+    }
+
+    .sp-category-menus {
+        display:block;
+    }
+
+    .sp-category-menu{
+        display:inline-block;
     }
 
 
