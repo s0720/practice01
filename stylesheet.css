@@ -1,0 +1,163 @@
+* {
+    box-sizing:border-box;
+    }
+    
+    
+    body {
+        font-family: "Hiragino Sans",sans-serif;
+        margin:0;
+        color:#484142;
+    }
+    
+    .header-ad {
+        height:110px;
+        line-height:110px;
+        width:80%;
+        margin:0 auto;
+        text-align: center;
+        background-color:#FCC8D1;
+        font-size:30px;
+    }
+    
+    .point {
+        color:#EC6996;
+        font-weight: bold;
+    }
+    
+    header {
+        border-top:1px solid #EDEDED;
+        border-bottom:1px solid #EDEDED;
+        background-color: #fff;
+    }
+    
+    .header-con {
+        width:80%;
+        margin:0 auto;
+        height:50px;
+        line-height:50px;
+    }
+    
+    .header-logo img {
+        display:inline-block;
+        width:15%;
+        margin-right:65px;
+    }
+
+    .header-logo img:hover {
+        opacity:0.5;
+        cursor:pointer;
+    }
+
+    .header-menu a{
+        display:inline-block;
+        padding-left:20px;
+        padding-right:20px;
+        font-size:14px;
+    }
+
+    .header-menu a:hover{
+        cursor:pointer;
+        border-bottom:1px solid black;
+    }
+
+    .header-item {
+        float:right;
+    }
+    
+    .header-icon span{
+        padding-left:15px;
+        padding-right:15px;
+    }
+
+    .header-icon span:hover{
+        cursor:pointer;
+    }
+    
+    .fa-solid {
+        color:#707070;
+    }
+
+    .smp-icon{
+        display:none;
+    }
+
+    #global_nav {
+        width: 100%;
+    }
+    
+    #global_nav.fixed {
+        left: 0;
+        position: fixed;
+        z-index:10;
+        top: 0;
+    }
+
+    .hamburger-menu {
+        float:right;
+    }
+
+    .hamburger {
+        padding-left:10px;
+    }
+
+    .hamburger-menu-item {
+        display:block;
+        line-height:40px;
+        font-size:12px;
+    }
+    
+    .menu-btn > i {
+        display: inline-block;
+        padding: 12px;
+        cursor: pointer;
+        border-radius: 50%;
+    }
+    .menu-btn > i:hover {
+        background-color: #f3f4f6;
+    }
+
+    /* チェックボックスを非表示 */
+    #menu-checkbox {
+	    display: none;
+    }
+
+    .nav-content {
+	    background-color: white;
+	    width: 100%;
+	    max-width: 30%;
+	    height: 100%;
+	    position: fixed;
+	    top: 0;
+	    right: 0;
+	    z-index: 50;
+	    padding: 8px;
+	    overflow: auto;
+	    transform: translateX(100%); /* 画面外に配置 */
+	    transition-duration: 300ms;
+        float:right;
+    }
+    .nav-menu ul {
+	    list-style: none;
+	    text-align: left;
+    }
+
+    .nav-menu li > a {
+	    text-decoration: none;
+	    color: #707070;
+	    padding: 12px;
+	    display: block;
+    }
+
+    .nav-menu li > a:hover {
+	background-color: #f3f4f6;
+    }
+    
+    /* チェックボックスがアクティブ状態の時、画面内に表示 */
+    #menu-checkbox:checked ~ .nav-content {
+	    transform: translateX(0%);
+    }
+
+    #menu-checkbox:checked ~ .nav-close {
+	    display: block;
+	    opacity: 0.5;
+    }
