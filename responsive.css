@@ -39,6 +39,7 @@
         display:block;
         line-height:50px;
         font-size:12px;
+        padding-left:15px;
     }
     
     .nav-content {
@@ -67,14 +68,13 @@
     }
 
     .sec_inner_1 {
-        width:300px;
-        height:300px;
+        width:400px;
+        height:400px;
         margin:0 auto;
-        text-align: center;
     }
     
     .slider-img-1{
-        width:80%;
+        width:100%;
     }
 
 
