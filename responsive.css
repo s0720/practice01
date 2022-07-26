@@ -39,7 +39,7 @@
         display:block;
         line-height:50px;
         font-size:12px;
-        padding-left:15px;
+        padding-left:30px;
     }
     
     .nav-content {
@@ -65,12 +65,14 @@
     
     main {
         width:100%;
+        margin:0 autp;
     }
 
     .sec_inner_1 {
         width:350px;
         height:350px;
-        margin-left:-50px;
+        margin:0 auto;
+        text-align:center;
     }
     
     .slider-img-1{
@@ -101,9 +103,14 @@
         display:block;
     }
 
-
-
-
+    .topics {
+        padding-top:50px;
+    }
+    
+    .topics-img {
+        padding:5px;
+        width:100%;
+    }
     
 
 }
