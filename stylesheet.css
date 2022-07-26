@@ -10,6 +10,7 @@
     }
     
     .header-ad {
+        max-width: 1100px;
         height:110px;
         line-height:110px;
         width:80%;
@@ -31,6 +32,7 @@
     }
     
     .header-con {
+        max-width: 1100px;
         width:80%;
         margin:0 auto;
         height:50px;
@@ -176,12 +178,10 @@
 
     aside {
         flex:1;
-        margin-left:-25px;
     }
 
     main {
         flex:1;
-        padding-left:50px;
     }
 
     .search_container{
@@ -248,8 +248,8 @@
     }
     
     .sec_inner_1 {
-        width:890px;
-        height:890px;
+        width:870px;
+        height:870px;
         margin-top:5px;
     }
     
@@ -285,12 +285,11 @@
     }
 
     .topics {
-        margin-left:-10px;
         padding-top:90px;
     }
     
     .topics-img {
-        padding:10px;
+        padding:5px;
         float:left;
         width:50%;
     }
@@ -303,13 +302,14 @@
 
     /* for sp */
     .sp-category-menus {
-        padding:20px 0px;
+        padding:50px 0px;
         width:100%;
         display:none;
     }
 
     .sp-category-menu{
         border:1px solid #707070;
+        width:33%;
         background-color:#AFAEAE;
         text-align:center;
         display:none;
@@ -320,18 +320,19 @@
         position: relative;
         border: 1px solid #AFAEAE;
         display: block;
-        margin-top: 20px;
-        margin-bottom: 20px;
+        margin-top: 50px;
+        margin-bottom: 50px;
         padding: 3px 10px;
-        height: 2.3em;
-        width: 210px;
+        height: 40px;
+        width: 300px;
         display:none;
     }
 
     .sp-search_container input[type="text"]{
         border: none;
         position: relative;
-        height: 2.0em;
+        height: 36px;
+        line-height:36px;
         display:none;
     }
 
@@ -348,7 +349,7 @@
         background: #fff;
         color: #AFAEAE;
         outline : none;
-        width: 2.0em;
-        height: 2.0em;
+        width: 34px;
+        height: 34px;
         display:none;
     }
