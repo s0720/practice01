@@ -35,6 +35,11 @@
         width: 100%;
     }
 
+    .hamburger-menu {
+        float:right;
+        padding-left:15px;
+    }
+
     .hamburger-menu-item {
         display:block;
         line-height:50px;
@@ -65,7 +70,7 @@
     
     main {
         width:100%;
-        margin:0 autp;
+        margin:0 aut0;
     }
 
     .sec_inner_1 {
