@@ -75,7 +75,7 @@
     .sec_inner_1 {
         width:375px;
         height:375px;
-        margin-left:-60px;
+        margin-left:-40px;
     }
     
     .slider-img-1{
@@ -84,7 +84,6 @@
 
     .sp-category-menus {
         margin-top:50px;
-        margin-bottom:50px;
         display:block;
     }
 
@@ -92,17 +91,12 @@
         border:0.5px solid #707070;
         float:left;
         width:33%;
-        background-color:#AFAEAE;
+        background-color:#dcdcdc;
         text-align:center;
         font-size:12px;
         height:40px;
         line-height:40px;
         display:block;
-    }
-
-    .sp-c-search-container{
-        text-align: center;
-        display: block;
     }
 
     .sp-search_container{
@@ -111,26 +105,23 @@
         border: 1px solid #AFAEAE;
         display: block;
         margin-top: 20px;
-        margin-bottom: 20px;
-        padding: 3px 10px;
-        height: 2.3em;
-        width: 210px;
-        display: block;
+        padding: 3px 20px;
+        height: 40px;
+        width: 300px;
     }
 
-    .sp-search_container input[type="text"]{
+    .search_container input[type="text"]{
         border: none;
         position: relative;
-        height: 2.0em;
-        display: block;
+        height: 40px;
     }
 
-    .sp-search_container input[type="text"]:focus {
+    .search_container input[type="text"]:focus {
         outline: 0;
-        display: block;
+        display:block;
     }
       
-    .sp-search_container input[type="submit"]{
+    .search_container input[type="submit"]{
         cursor: pointer;
         font-family: FontAwesome;
         border: none;
@@ -138,9 +129,8 @@
         background: #fff;
         color: #AFAEAE;
         outline : none;
-        width: 2.0em;
-        height: 2.0em;
-        display: block;
+        width: 40px;
+        height: 40px;
     }
 
     .topics {
@@ -154,6 +144,6 @@
         width:100%;
     }
 
-    
+
 
 }
