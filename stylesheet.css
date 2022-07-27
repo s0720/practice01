@@ -315,6 +315,66 @@
         opacity:0.5;
         cursor: pointer;
     }
+
+    .narrival-title {
+        padding-bottom:10px;
+        font-size:14px;
+        letter-spacing: 3px;
+        color:#231816;
+        text-align:center;
+        border-bottom:1px solid #E9E9E9;
+    }
+
+    .slider-2 {
+        width:900px;
+        height:260px;
+    }
+    
+    .newitem {
+        width:100px;
+        height:156px;
+        margin:0 auto;
+        padding-top:20px;
+    }
+
+    .newitem:hover{
+        cursor: pointer;
+        opacity:0.5;
+    }
+    
+    .slider-img-2 {
+        width:90%;
+    }
+    
+    .slider-2 p{
+        font-size:12px;
+        width:90%;
+        text-align: center;
+    }
+    
+    .slider-2 .slick-next{
+        right:0!important;
+    }
+    
+    .slider-2 .slick-prev{
+        left:0!important;
+    }
+    
+    .slider-2 .slick-arrow{
+        width: initial!important;
+        height: initial!important;
+        z-index:2!important;
+        color:#AFAEAE;
+    }
+    .slider-2 .slick-arrow:before{
+        font-size: 20px!important;
+        color:#AFAEAE; 
+    }
+    
+    .slider-2 .slick-dots {
+        bottom:-60px!important;
+    }
+
     
 
     /* for sp */
@@ -323,49 +383,23 @@
     }
 
     .sp-category-menu{
-        border:1px solid #707070;
-        float:left;
-        width:33%;
-        background-color:#AFAEAE;
-        text-align:center;
+
         display:none;
     }
 
     .sp-search_container{
-        box-sizing: border-box;
-        position: relative;
-        border: 1px solid #AFAEAE;
-        display: block;
-        margin-top: 50px;
-        margin-bottom: 50px;
-        padding: 3px 10px;
-        height: 40px;
-        width: 300px;
         display:none;
     }
 
     .sp-search_container input[type="text"]{
-        border: none;
-        position: relative;
-        height: 36px;
-        line-height:36px;
         display:none;
     }
 
     .sp-search_container input[type="text"]:focus {
-        outline: 0;
         display:none;
     }
       
     .sp-search_container input[type="submit"]{
-        cursor: pointer;
-        font-family: FontAwesome;
-        border: none;
-        border-radius: 20%;
-        background: #fff;
-        color: #AFAEAE;
-        outline : none;
-        width: 34px;
-        height: 34px;
         display:none;
     }
+    
