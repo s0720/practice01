@@ -75,7 +75,6 @@
     .sec_inner_1 {
         width:375px;
         height:375px;
-        margin-left:-40px;
     }
     
     .slider-img-1{
@@ -103,25 +102,26 @@
         box-sizing: border-box;
         position: relative;
         border: 1px solid #AFAEAE;
-        display: block;
         margin-top: 20px;
         padding: 3px 20px;
         height: 40px;
         width: 300px;
+        display: block;
     }
 
-    .search_container input[type="text"]{
+    .sp-search_container input[type="text"]{
         border: none;
         position: relative;
         height: 40px;
+        display: block;
     }
 
-    .search_container input[type="text"]:focus {
+    .sp-search_container input[type="text"]:focus {
         outline: 0;
         display:block;
     }
       
-    .search_container input[type="submit"]{
+    .sp-search_container input[type="submit"]{
         cursor: pointer;
         font-family: FontAwesome;
         border: none;
@@ -131,6 +131,7 @@
         outline : none;
         width: 40px;
         height: 40px;
+        display: block;
     }
 
     .topics {
