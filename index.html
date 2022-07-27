@@ -127,12 +127,14 @@
                       <a class="sp-category-menu">ブランドから探す</a>
                       <a class="sp-category-menu">NEW ARRIVALS</a>
                   </div>
-                  <form method="get" action="https://www.muk-webshop.com/fs/accessory/GoodsSearchList.html" class="sp-search_container">
-                    <input type="hidden" name="_e_k" value="Ａ">
-                    <input type="hidden" name="tag" value="検索可能"> 
-                    <input type="text" name="keyword" maxlength="1000" placeholder="キーワードを入力">
-                    <input type="submit" value="&#xf002">
+                  <div class="sp-c-search-container">
+                    <form method="get" action="https://www.muk-webshop.com/fs/accessory/GoodsSearchList.html" class="sp-search_container">
+                      <input type="hidden" name="_e_k" value="Ａ">
+                      <input type="hidden" name="tag" value="検索可能"> 
+                      <input type="text" name="keyword" maxlength="1000" placeholder="キーワードを入力">
+                      <input type="submit" value="&#xf002">
                     </form>
+                  </div>
                   <!--end-->
                   <div class="topics">
                     <img class="topics-img" src="https://www.muk-webshop.com/wp-content/uploads/2021/01/2-nonallergy-2.jpg">
@@ -141,7 +143,73 @@
                     <img class="topics-img topics-under" src="https://www.muk-webshop.com/wp-content/uploads/2021/01/2-clear.jpg">
                   </div>
                   <div class="news"><a>一部商品価格改定のお知らせ（7/1）</a></div>
-                  
+                  <div class="narrival">
+                    <div class="narrival-title">NEW ARRIVALS</div>
+                    <div class="sec_inner_2">
+                      <div class="slider-2">
+                        <div class="newitem">
+                          <img class="slider-img-2" src="https://www.muk-webshop.com/wp-content/uploads/2020/12/1-251.jpg">
+                          <p>ミッフィーとボリスのハンド＆スタンドミラー</p>
+                          <p>1,760円</p>
+                        </div>
+                        <div class="newitem">
+                          <img class="slider-img-2" src="https://www.muk-webshop.com/wp-content/uploads/2020/12/1-252.jpg">
+                          <p>ミッフィーとボリスのオーガンジーシュシュ</p>
+                          <p>800円</p>
+                        </div>
+                        <div class="newitem">
+                          <img class="slider-img-2" src="https://www.muk-webshop.com/wp-content/uploads/2019/12/1-341.jpg">
+                          <p>ドライフラワーボックスデザインピアス</p>
+                          <p>1,430円</p>
+                        </div>
+                        <div class="newitem">
+                          <img class="slider-img-2" src="https://www.muk-webshop.com/wp-content/uploads/2020/12/1-253.jpg">
+                          <p>ドライフラワーボックスデザインポニー</p>
+                          <p>1,430円</p>
+                        </div>
+                        <div class="newitem">
+                          <img class="slider-img-2" src="https://www.muk-webshop.com/wp-content/uploads/2020/12/1-254.jpg">
+                          <p>ちりめん細工ピアス</p>
+                          <p>1,100円</p>
+                        </div>
+                        <div class="newitem">
+                          <img class="slider-img-2" src="https://www.muk-webshop.com/wp-content/uploads/2020/12/1-255.jpg">
+                          <p>提灯ピアス</p>
+                          <p>1,100円</p>
+                        </div>
+                        <div class="newitem">
+                          <img class="slider-img-2" src="https://www.muk-webshop.com/wp-content/uploads/2020/12/1-248.jpg">
+                          <p>パフュームフワラーアクセサリーポーチ</p>
+                          <p>2,310円</p>
+                        </div>
+                        <div class="newitem">
+                          <img class="slider-img-2" src="https://www.muk-webshop.com/wp-content/uploads/2020/12/1-249.jpg">
+                          <p>ラウンドファスナーアクセサリーポーチ</p>
+                          <p>2,695円</p>
+                        </div>
+                        <div class="newitem">
+                          <img class="slider-img-2" src="https://www.muk-webshop.com/wp-content/uploads/2020/12/1-246.jpg">
+                          <p>ループメッシュメタルバンスクリップ</p>
+                          <p>1,430円</p>
+                        </div>
+                        <div class="newitem">
+                          <img class="slider-img-2" src="https://www.muk-webshop.com/wp-content/uploads/2020/12/1-241.jpg">
+                          <p>パーティカルパールスムースピアス</p>
+                          <p>2,860円</p>
+                        </div>
+                        <div class="newitem">
+                          <img class="slider-img-2" src="https://www.muk-webshop.com/wp-content/uploads/2019/12/1-327.jpg">
+                          <p>グロスエポラウンドメタルピアス</p>
+                          <p>1,980円</p>
+                        </div>
+                        <div class="newitem">
+                          <img class="slider-img-2" src="https://www.muk-webshop.com/wp-content/uploads/2019/12/1-328.jpg">
+                          <p>グロスポリボンパニー</p>
+                          <p>1,540円</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                   
             </main>
         
@@ -170,4 +238,12 @@
             pauseOnHover: false,   //ホバーしたときにスライドを一時停止しない　
             });
         </script>
+        <script>
+            $('.slider-2').slick({
+            slidesToShow: 6,
+            slidesToScroll: 6,
+            dots:true,
+            arrows:true
+          });
+          </script>
     </body>
