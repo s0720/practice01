@@ -73,13 +73,13 @@
     }
 
     .sec_inner_1 {
-        width:90%;
-        height:90%;
-        margin-left:-100px;
+        width:375px;
+        height:375px;
+        margin-left:-60px;
     }
     
     .slider-img-1{
-        width:50%;
+        width:90%;
     }
 
     .sp-category-menus {
@@ -94,6 +94,7 @@
         width:33%;
         background-color:#AFAEAE;
         text-align:center;
+        font-size:12px;
         height:40px;
         line-height:40px;
         display:block;
@@ -101,6 +102,7 @@
 
     .sp-c-search-container{
         text-align: center;
+        display: block;
     }
 
     .sp-search_container{
@@ -113,16 +115,19 @@
         padding: 3px 10px;
         height: 2.3em;
         width: 210px;
+        display: block;
     }
 
     .sp-search_container input[type="text"]{
         border: none;
         position: relative;
         height: 2.0em;
+        display: block;
     }
 
     .sp-search_container input[type="text"]:focus {
         outline: 0;
+        display: block;
     }
       
     .sp-search_container input[type="submit"]{
@@ -135,6 +140,20 @@
         outline : none;
         width: 2.0em;
         height: 2.0em;
+        display: block;
     }
+
+    .topics {
+        padding-top:0px;
+        margin-top:50px;
+    }
+    
+    .topics-img {
+        padding:0px;
+        margin-bottom:5px;
+        width:100%;
+    }
+
+    
 
 }
