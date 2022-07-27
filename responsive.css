@@ -145,6 +145,18 @@
         width:100%;
     }
 
+    .sec_inner_2 {
+        display:none;
+    }
+
+    .slider-2 {
+        display:none;
+    }
+
+    .newitem {
+        float:left;
+        width:50%;
+    }
 
 
 }
