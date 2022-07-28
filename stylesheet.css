@@ -284,3 +284,9 @@
     .slider-1 .slick-slide{
         height:auto;
     }
+
+
+    /* SP */
+    .sp-category {
+        display:none;
+    }
