@@ -58,7 +58,7 @@
 
     main {
         width:100%;
-        padding: left 0px, im !important;;
+        padding-left:0px !important;
     }
 
     .search_container{
