@@ -58,6 +58,7 @@
 
     main {
         width:100%;
+        padding: left 0px, im !important;;
     }
 
     .search_container{
@@ -87,12 +88,10 @@
     .sec_inner_1 {
         width:350px;
         height:350px;
-        margin:0 auto;
-        text-align:center;
     }
     
     .slider-img-1{
-        width:100%;
+        width:90%;
     }
 
 
