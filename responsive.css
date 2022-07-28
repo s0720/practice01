@@ -86,9 +86,10 @@
     }
     
     .sec_inner_1 {
-        width:355px;
-        height:355px;
+        width:370px;
+        height:370px;
         margin-left:-35px;
+	margin:0 auto;
     }
     
     .slider-img-1{
