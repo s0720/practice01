@@ -58,8 +58,6 @@
 
     main {
         width:100%;
-        padding-left:0px !important;
-        margin-left:-10px !important;
     }
 
     .search_container{
@@ -89,6 +87,7 @@
     .sec_inner_1 {
         width:375px;
         height:375px;
+        margin-left:-20px;
     }
     
     .slider-img-1{
