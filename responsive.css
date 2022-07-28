@@ -59,6 +59,7 @@
     main {
         width:100%;
         padding-left:0px !important;
+        margin-left:-50px;
     }
 
     .search_container{
@@ -91,7 +92,7 @@
     }
     
     .slider-img-1{
-        width:90%;
+        width:100%;
     }
 
 
