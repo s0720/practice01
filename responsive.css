@@ -85,9 +85,10 @@
     }
     
     .sec_inner_1 {
-        width:375px;
-        height:375px;
-        margin-left:-20px;
+        width:350px;
+        height:350px;
+        margin:0 auto;
+        text-align:center;
     }
     
     .slider-img-1{
