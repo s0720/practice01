@@ -61,6 +61,11 @@
         padding-left:0px !important;
     }
 
+    .con1-wrapper{
+        width:100%;
+        margin:0 auto;
+    }
+
     .search_container{
         display:none;
     }
