@@ -59,7 +59,6 @@
     main {
         width:100%;
         padding-left:0px !important;
-        margin-left:-50px;
     }
 
     .search_container{
@@ -89,6 +88,7 @@
     .sec_inner_1 {
         width:350px;
         height:350px;
+        margin-left:-50px;
     }
     
     .slider-img-1{
