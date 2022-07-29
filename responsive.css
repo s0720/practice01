@@ -100,8 +100,7 @@
     }
 
     .sp-category a{
-	display:block;
-        display:inline-block;
+        display:inline-block!important;
         margin-top:5px;
         width:30%;
         margin:0 auto;
