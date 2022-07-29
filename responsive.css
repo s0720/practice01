@@ -101,8 +101,7 @@
 
     .sp-category {
         display:block;
-        margin-top:20px;
-        margin-bottom:20px;
+        margin-top:5px;
     }
 
     .sp-category a {
@@ -110,7 +109,9 @@
         text-align:center;
         width:33.3%;
         background-color:#F5F5F5;
-        border:#E9E9E9;
+        border:0.5px solid #E9E9E9;
+        height:20px;
+        line-height:20px;
         font-size:10px;
 
     }
