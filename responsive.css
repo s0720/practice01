@@ -100,7 +100,7 @@
     }
 
     .sp-category {
-        display:block;
+        display:inline-block!important;
     }
 
     .sp-category a{
