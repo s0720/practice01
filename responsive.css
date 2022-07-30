@@ -102,13 +102,14 @@
     .sp-category {
         display:block;
         width:100%;
+        margin:0 auto;
         font-size:0px;
     }
 
     .sp-category a{
         display:inline-block!important;
         margin-top:5px;
-        width:32%;
+        width:33.3%;
         background-color:#F5F5F5;
         border:1px solid #E9E9E9;
         padding: 0px!important;
