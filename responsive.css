@@ -102,15 +102,16 @@
     .sp-category {
         display:block;
         width:100%;
+        font-size:0px;
     }
 
     .sp-category a{
         display:inline-block!important;
         margin-top:5px;
-        width:30%;
-	padding:0px!important;
+        width:32%;
         background-color:#F5F5F5;
         border:1px solid #E9E9E9;
+        padding: 0px!important;
         text-align:center;
         height:40px;
         line-height:40px;
