@@ -152,7 +152,7 @@
         outline : none;
         width: 2.0em;
         height: 2.0em;
-        transform: (90px);
+        transform: translate(90px, 0px);
     }
 
 }
