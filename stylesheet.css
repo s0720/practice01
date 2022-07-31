@@ -19,6 +19,11 @@
         background-color:#FCC8D1;
         font-size:30px;
     }
+
+    .header-ad a {
+        color: #484142;
+        text-decoration: none;
+    }
     
     .point {
         color:#EC6996;
