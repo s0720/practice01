@@ -10,10 +10,6 @@
         width:90%;
     }
 
-    .header-logo img {
-        width:40%;
-    }
-
     .header-menu a{
         display:none;
     }
@@ -93,7 +89,6 @@
     .sec_inner_1 {
         width:100%;
         height:100%;
-	margin-bottom:-16px;
     }
     
     .slider-img-1{
@@ -152,7 +147,7 @@
         outline : none;
         width: 2.0em;
         height: 2.0em;
-	margin-left:10px;
+        margin-left:20px;
     }
 
 }
