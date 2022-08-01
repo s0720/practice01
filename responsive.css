@@ -155,4 +155,13 @@
         transform: translate(90px, 0px);
     }
 
+    .topics {
+        margin-top:20px;
+    }
+
+    .topics img {
+        width:100%;
+        padding:0px 0px 5px 0px;
+    }
+
 }
