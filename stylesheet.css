@@ -186,7 +186,7 @@
     }
 
     main {
-        width:60%;
+        width:80%;
         padding-left:10px;
     }
 
@@ -288,6 +288,21 @@
 
     .slider-1 .slick-slide{
         height:auto;
+    }
+
+    .topics {
+        margin-top:90px;
+    }
+
+    .topics img {
+        width:50%;
+        float:left;
+        padding:5px;
+    }
+
+    .topics-img:hover {
+        cursor: pointer;
+        opacity:0.5;
     }
 
 
