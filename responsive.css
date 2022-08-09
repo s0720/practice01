@@ -204,6 +204,10 @@
         display: none;
     }
 
+    .sp-c-newitem {
+        display:block;
+    }
+
     .sp-newitem {
         display:block;
         float:left;
@@ -214,12 +218,14 @@
     .sp-slider-img-2 {
         display:block;
         width:90%;
+        margin:0 auto;
     }
 
     .sp-newitem p{
         display:block;
         font-size:12px;
         width:90%;
+        margin:0 auto;
         text-align: center;
     }
 
@@ -238,10 +244,116 @@
         padding:15px 40px;
     }
     
-    .viewmore:hover {
+    .sp-viewmore:hover {
         color:#fff;
         background-color:black;
         cursor:pointer;
     }
+
+    .c-hotword {
+        margin-top:60px;
+        padding-left:5px;
+        padding-right:5px;
+        margin-bottom:60px;
+    }
+    
+    .collection-img {
+        width:50%;
+        margin:0 auto;
+        float:left;
+        padding:5px;
+    }
+
+    .sp-title {
+        display:block;
+        text-align: center;
+        padding-top:60px;
+        padding-bottom:10px;
+        border-bottom:1px solid #E9E9E9;
+    }
+
+    .sp-ranking {
+        display:block;
+        list-style: none;
+        counter-reset: rank;
+        margin:0 auto;
+        text-align:center;
+        margin-left:0px;
+      }
+    
+    .sp-ranking li {
+        position: relative;
+      }
+       
+    .sp-ranking li:not(:last-child) {
+        margin-bottom: 20px;
+      }
+       
+    .sp-ranking li::before { /* ラベルと順位のスタイル */
+        counter-increment: rank;
+        content: counter(rank) "";
+        position: absolute;
+        padding: 6px 10px;
+        font-size: 10px;
+        color: #fff; /* 文字色 */
+        border-radius:50%;
+        text-align: center;
+      }
+    
+    .sp-ranking-item {
+        display:block;
+        width:50%;
+        float:left;
+        padding:5px;
+    }
+    
+    .sp-ranking-item img {
+        display:block;
+        width:90%;
+        margin:0 auto;
+    }
+
+    .sp-ranking-item img:hover {
+        opacity: 0.5;
+        cursor:pointer;
+    }
+    
+    .sp-ranking-item p{
+        display:block;
+        text-align:center;
+        font-size:10px;
+    }
+
+    .sp-ranking-item p:hover {
+        opacity: 0.5;
+        cursor:pointer;
+    }
+    
+    .sp-ranking li:nth-child(1)::before { 
+        background-color: #D6A324;
+      }
+    
+    .sp-ranking li:nth-child(2)::before { 
+        background-color:#C0C0C0;
+      }
+    
+    .sp-ranking li:nth-child(3)::before { 
+        background-color:#C07022;
+      }
+    
+    .sp-ranking li:nth-child(4)::before { 
+        background-color:#5C5C5C;
+      }
+    
+    .sp-ranking li:nth-child(5)::before { 
+        background-color:#5C5C5C;
+      }
+    
+    .sp-ranking-item-price {
+        display:block;
+        padding-bottom:80px;
+    }
+    
+
    
 }
