@@ -317,6 +317,7 @@
     .title {
         padding-top:80px;
         padding-bottom:10px;
+        margin-bottom:10px;
         font-size:14px;
         letter-spacing: 3px;
         color:#231816;
@@ -333,7 +334,6 @@
         width:100px;
         height:156px;
         margin:0 auto;
-        padding-top:20px;
     }
 
     .newitem:hover{
@@ -374,6 +374,184 @@
         bottom:-60px!important;
     }
 
+    
+
+    .c-hotword {
+        background-color: #F5F5F5;
+        margin-top:80px;
+        padding-left:10px;
+        padding-right:10px;
+        margin-bottom:80px;
+    }
+    
+    .hotword {
+        text-align:center;
+        padding:15px 0px;
+        border-bottom:1px solid #E9E9E9;
+    }
+    
+    .tags{
+        padding-top:10px;
+        padding-bottom:20px;
+    }
+    
+    .tag{
+        display:inline-block;
+        background-color: #fff;
+        border-radius: 10px;
+        font-size:12px;
+        padding:8px;
+        margin-left:5px;
+        margin-bottom:8px;
+    }
+
+    .tag:hover {
+        cursor:pointer;
+        text-decoration: underline;
+    }
+
+    .collection {
+        text-align: center;
+        padding-top:20px;
+        padding-bottom:10px;
+        border-bottom:1px solid #E9E9E9;
+    }
+    
+    .collection-imgs {
+        padding-top:10px;
+    }
+    
+    .collection-img {
+        width:33%;
+        float:left;
+        padding:5px;
+    }
+    
+    .collection-img img {
+        width:100%;
+    }
+
+    .collection-img img:hover {
+        opacity:0.5;
+        cursor:pointer;
+    }
+    
+    .collection-img p{
+        text-align:center;
+        font-size:12px;
+        padding-bottom:15px;
+    }
+
+    .collection-img p:hover{
+        text-decoration: underline;
+        cursor:pointer;
+    }
+
+    .c-viewmore {
+        text-align:center;
+    }
+    
+    .viewmore {
+        display: inline-block;
+        font-size:12px;
+        color:#322925;
+        border:1px solid #322925;
+        padding:15px 40px;
+        margin-top:90px;
+    }
+    
+    .viewmore:hover {
+        color:#fff;
+        background-color:black;
+        cursor:pointer;
+    }
+
+    .title {
+        text-align: center;
+        padding-bottom:10px;
+        border-bottom:1px solid #E9E9E9;
+    }
+    
+    .ranking {
+        list-style: none;
+        counter-reset: rank;
+        margin:0 auto;
+        text-align:center;
+        margin-left:-50px;
+      }
+    
+    .ranking li {
+        position: relative;
+      }
+       
+    .ranking li:not(:last-child) {
+        margin-bottom: 20px;
+      }
+       
+    .ranking li::before { /* ラベルと順位のスタイル */
+        counter-increment: rank;
+        content: counter(rank) "";
+        position: absolute;
+        padding: 6px 10px;
+        font-size: 10px;
+        color: #fff; /* 文字色 */
+        border-radius:50%;
+        text-align: center;
+      }
+    
+    .ranking-item {
+        width:20%;
+        float:left;
+        padding:15px;
+    }
+    
+    .ranking-item img {
+        width:110%;
+    }
+
+    .ranking-item img:hover {
+        opacity: 0.5;
+        cursor:pointer;
+    }
+    
+    .ranking-item p{
+        text-align:center;
+        font-size:11px;
+    }
+
+    .ranking-item p:hover {
+        opacity: 0.5;
+        cursor:pointer;
+    }
+    
+    .ranking li:nth-child(1)::before { 
+        background-color: #D6A324;
+      }
+    
+    .ranking li:nth-child(2)::before { 
+        background-color:#C0C0C0;
+      }
+    
+    .ranking li:nth-child(3)::before { 
+        background-color:#C07022;
+      }
+    
+    .ranking li:nth-child(4)::before { 
+        background-color:#5C5C5C;
+      }
+    
+    .ranking li:nth-child(5)::before { 
+        background-color:#5C5C5C;
+      }
+    
+    .ranking-item-price {
+        padding-bottom:80px;
+    }
+
+
+
+
+
     /* SP */
     .sp-header-icons {
         display:none;
@@ -384,6 +562,10 @@
     }
 
     .sp-search_container {
+        display:none;
+    }
+
+    .sp-c-newitem {
         display:none;
     }
 
@@ -399,6 +581,35 @@
         display:none;
     }
 
+    .sp-title {
+        display:none;
+    }
+
+    .sp-ranking {
+        display:none;
+      }
+    
+    .sp-ranking li {
+        display:none;
+      }
+    
+    .sp-ranking-item {
+        display:none;
+    }
+    
+    .sp-ranking-item img {
+       display:none; 
+    }
+    
+    .sp-ranking-item p{
+        display:none;
+    }
+    
+    .sp-ranking-item-price {
+        display:none;
+    }
+    
+    
     
 
     
