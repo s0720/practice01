@@ -1,73 +1,46 @@
 @media screen and (max-width:670px) {
-    .header-ad {
-        height:50px;
-        line-height:50px;
-        width:100%;
-        font-size:10px;
-    }
-
-    .header-con {
-        width:90%;
+    .top-register {
+        max-width:100%;
+        text-align: center;
+        margin:0 auto;
     }
 
     .header-logo img {
         width:40%;
     }
 
-    .header-menu a{
+    .header-menu {
         display:none;
     }
 
-    .header-icon span{
-        padding-left:0px;
-        padding-right:0px;
+    .header-menu a {
+        display:none;
+    }
+
+    .header-icons {
+        display:none;
     }
 
     .header-icon {
         display:none;
     }
 
-    .sp-header-icon {
-        display: inline-block!important;
-    }
-
-    #global_nav {
-        width: 100%;
-    }
-
-    .hamburger-menu {
-        float:right;
-        padding-left:15px;
-    }
-
-    .hamburger-menu-item {
+    .sp-header-icons {
         display:block;
-        line-height:50px;
-        font-size:12px;
-        padding-left:30px;
-    }
-    
-    .nav-content {
-	    width: 300px;
-	    max-width: 300px;
     }
 
     aside {
         width:0%;
+        padding-left:0px;
+        padding-right:0px;
     }
 
     main {
         width:100%;
-        padding-left:0px !important;
-    }
-
-    .con1-wrapper{
-        width:100% !important;
-        margin:0 auto;
     }
 
     .search_container{
-        display:none;
+        display: none;
     }
 
     .search_container input[type="text"]{
@@ -75,31 +48,35 @@
     }
 
     .search_container input[type="text"]:focus {
-        display:none;
+        display: none;
     }
       
     .search_container input[type="submit"]{
-        display:none;
+        display: none;
     }
     
     .side-menu {
-        display:none;
-    }
-    
-    .side-menu-list {
-        display:none;
-    }
-    
-    .sec_inner_1 {
-        width:100%;
-        height:100%;
-        margin-bottom:-450px;
-    }
-    
-    .slider-img-1{
-        width:100%;
+        display: none;
     }
 
+    .category {
+        display: none;
+    }
+
+    .category ul {
+        display: none;
+    }
+
+    .category li {
+        display: none;
+    }
+
+    .sec_inner_1 {
+        width:100%;
+        height:auto;
+        margin-top:5px;
+    }
+    
     .sp-category {
         display:block;
         width:100%;
@@ -162,22 +139,5 @@
         width:100%;
         padding:0px 0px 5px 0px;
     }
-
-    .sec_inner_2 {
-        display:none;
-    }
-
-    .slider-2 {
-        display:none;
-    }
-
-    .new-item {
-        display:none;
-    }
-
-    .sp-new-item {
-        width:50%;
-        float:left;
-    }
-
+   
 }
