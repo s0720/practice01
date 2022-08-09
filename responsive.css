@@ -282,14 +282,17 @@
       }
     
     .sp-ranking li {
+        display:block;
         position: relative;
       }
        
     .sp-ranking li:not(:last-child) {
+        display:block;
         margin-bottom: 20px;
       }
        
     .sp-ranking li::before { /* ラベルと順位のスタイル */
+        display:block;
         counter-increment: rank;
         content: counter(rank) "";
         position: absolute;
