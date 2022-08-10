@@ -90,6 +90,7 @@
     .sp-category {
         display:block;
         width:100%;
+        padding-top:20px;
         margin-bottom:20px;
         font-size:0px;
     }
@@ -227,6 +228,7 @@
         width:90%;
         margin:0 auto;
         text-align: center;
+        padding:10px 0px 20px 0px;
     }
 
     .sp-c-viewmore {
@@ -272,7 +274,7 @@
         border-bottom:1px solid #E9E9E9;
     }
 
-    .ranking {
+    .title {
         display:none;
       }
     
@@ -310,7 +312,7 @@
         counter-reset: rank;
         margin:0 auto;
         text-align:center;
-        margin-left:0px;
+        margin-left:-50px;
       }
     
     .sp-ranking li {
