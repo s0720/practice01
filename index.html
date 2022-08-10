@@ -531,6 +531,40 @@
                 </div>
               </div>
             </div>
+            <div class="c-news">
+              <p class="title news-title">NEWS</p>
+            </div>
+            <div class="contents-item">
+              <img src="https://www.muk-webshop.com/wp-content/uploads/2022/07/news220701.jpg">
+              <p>【Instagram】プレゼントキャンペーン開催中（2022/7/31まで）<br><br>
+              <span class="date">キャンペーン<br>2022.6.22&nbsp;</span><span class="new">NEW</span></p>
+            </div>
+            <div class="contents-item">
+              <img src="https://www.muk-webshop.com/wp-content/uploads/2022/06/news220601-1.jpg">
+              <p>【Instagram】プレゼントキャンペーン開催中（2022/6/30まで）<br><br>
+              <span class="date">キャンペーン<br>2022.5.24</p>
+            </div>
+            <div class="contents-item">
+              <img src="https://www.muk-webshop.com/wp-content/uploads/2022/05/news220517-tmb.jpg">
+              <p>【MUK別注】陶器アクセサリーMIKELO<br><br><br><br>
+              <span class="date">ニュース<br>2022.5.17</span></p>
+            </div>
+            <div class="contents-item">
+              <img src="https://www.muk-webshop.com/wp-content/uploads/2022/05/news-2205.jpg">
+              <p>【Campaign】ピアス・イヤリング・イヤーカフ２点で10%off!※終了しました<br><br>
+              <span class="date">キャンペーン<br>2022.5.9</p>
+            </div>
+            <div class="contents-item">
+              <img src="https://www.muk-webshop.com/wp-content/uploads/2022/04/7a234a03b7bd74d037b39ea19e560425.png">
+              <p>【Dreamy stone】NEW｜プチペンダント&ピアス<br><br>
+              <span class="date">ニュース<br>2022.4.18</span></p>
+            </div>
+            <div class="contents-item">
+              <img src="https://www.muk-webshop.com/wp-content/uploads/2022/02/0207-4.jpg">
+              <p>【Puretre】NEW｜ペンダント&ピアス&ブレスレット&リング<br><br>
+              <span class="date">ニュース<br>2022.2.7</p>
+            </div>
+              
           </main>
         </div>
 
@@ -574,6 +608,11 @@
         $('.slider-3').slick({
         slidesToShow: 6,
         slidesToScroll: 6,
+        autoplay: true,         //自動再生
+        autoplaySpeed: 2000,  //自動再生のスピード
+        speed: 800,  //スライドするスピード
+        infinite: true, //スライドのループ
+        pauseOnHover: false,   //ホバーしたときにスライドを一時停止しない　
         dots:true,
         arrows:true,
         responsive: [
@@ -582,12 +621,6 @@
         settings: {
         slidesToShow: 3,
         slidesToScroll: 3,
-        autoplay: true,         //自動再生
-        autoplaySpeed: 2000,  //自動再生のスピード
-        speed: 800,  //スライドするスピード
-        dots: true, //スライドしたのドット
-        arrows: true,          //左右の矢印
-        infinite: true, //スライドのループ
         },
         },
         ],
