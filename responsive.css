@@ -377,10 +377,6 @@
     .sp-ranking-item-price {
         display:block;
     }
-
-    .contents-item-set {
-        width:100%;
-    }
     
     .contents-item {
         display:flex;
@@ -412,6 +408,7 @@
         width:100%;;
         height:auto;
     }
+
     
     
     
