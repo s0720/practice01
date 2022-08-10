@@ -374,25 +374,38 @@
         background-color:#5C5C5C;
       }
     
-    .sp-ranking li:nth-child(5)::before { 
-        background-color:#5C5C5C;
-      }
-    
     .sp-ranking-item-price {
         display:block;
     }
 
-    .ranking li:nth-child(6)::before { 
-        background-color:#5C5C5C;
-      }
+    .contents-item-set {
+        width:100%;
+    }
     
     .contents-item {
-        width:100%;
-        padding:10px 00px 10px 0px;
+        display:flex;
+        width:50%;
+        float:left;
+        border-bottom:1px solid #E9E9E9;
+        padding:10px 0px 10px 0px;
+    }
+
+    .contents-item:hover {
+        cursor:pointer;
+        background-color: #F2F2F2;
+    }
+    
+    .clear {
+        clear:left;
     }
     
     .contents-item img {
-        width:100%;
+        width:40%;
+    }
+    
+    .contents-item p{
+        font-size:12px;
+        padding-left:10px;
     }
 
     .slider-3 {
