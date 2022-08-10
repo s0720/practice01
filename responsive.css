@@ -272,6 +272,38 @@
         border-bottom:1px solid #E9E9E9;
     }
 
+    .ranking {
+        display:none;
+      }
+    
+    .ranking li {
+        display:none;
+      }
+       
+    .ranking li:not(:last-child) {
+        display:none;
+      }
+       
+    .ranking li::before { /* ラベルと順位のスタイル */
+        display:none;
+      }
+    
+    .ranking-item {
+        display:none;
+    }
+    
+    .ranking-item img {
+        display:none;
+    }
+    
+    .ranking-item p{
+        display:none;
+    }
+    
+    .ranking-item-price {
+        display:none;
+    }
+
     .sp-ranking {
         display:block;
         list-style: none;
@@ -307,12 +339,12 @@
         display:block;
         width:50%;
         float:left;
-        padding:5px;
+        padding:5px 5px 5px 15px;
     }
     
     .sp-ranking-item img {
         display:block;
-        width:90%;
+        width:100%;
         margin:0 auto;
     }
 
@@ -354,7 +386,6 @@
     
     .sp-ranking-item-price {
         display:block;
-        padding-bottom:80px;
     }
     
 
