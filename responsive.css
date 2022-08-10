@@ -231,6 +231,10 @@
         padding:10px 0px 20px 0px;
     }
 
+    .sp-clear {
+        clear:left;
+    }
+
     .sp-c-viewmore {
         display:block;
         margin-top:60px;
@@ -266,18 +270,6 @@
         padding:5px;
     }
 
-    .sp-title {
-        display:block;
-        text-align: center;
-        padding-top:60px;
-        padding-bottom:10px;
-        border-bottom:1px solid #E9E9E9;
-    }
-
-    .title {
-        display:none;
-      }
-    
     .ranking li {
         display:none;
       }
@@ -389,6 +381,10 @@
     .sp-ranking-item-price {
         display:block;
     }
+
+    .ranking li:nth-child(6)::before { 
+        background-color:#5C5C5C;
+      }
     
 
    
