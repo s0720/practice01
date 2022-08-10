@@ -514,7 +514,7 @@
     
     .ranking-item p{
         text-align:center;
-        font-size:11px;
+        font-size:12px;
     }
 
     .ranking-item p:hover {
@@ -544,6 +544,46 @@
     
     .ranking-item-price {
         padding-bottom:80px;
+    }
+
+    .contents-title {
+        text-align: center;
+        padding-bottom:10px;
+        border-bottom:1px solid #E9E9E9;
+    }
+    
+    .contents-item {
+        display:flex;
+        width:50%;
+        float:left;
+        border-bottom:1px solid #E9E9E9;
+        padding:10px 20px 10px 0px;
+    }
+
+    .contents-item:hover {
+        cursor:pointer;
+        background-color: #F2F2F2;
+    }
+    
+    .clear {
+        clear:left;
+    }
+    
+    .contents-item img {
+        width:50%;
+    }
+    
+    .contents-item p{
+        font-size:14px;
+        padding-left:10px;
+    }
+    
+    .date {
+        color:gray;
+    }
+    
+    .contens-item-last {
+        margin-bottom:80px;
     }
 
 
