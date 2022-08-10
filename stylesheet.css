@@ -374,8 +374,6 @@
         bottom:-60px!important;
     }
 
-    
-
     .c-hotword {
         background-color: #F5F5F5;
         margin-top:80px;
@@ -541,10 +539,6 @@
       }
     
     .ranking li:nth-child(5)::before { 
-        background-color:#5C5C5C;
-      }
-    
-    .ranking li:nth-child(6)::before { 
         background-color:#5C5C5C;
       }
     
