@@ -384,7 +384,7 @@
     
     .contents-item {
         display:flex;
-        width:50%;
+        width:100%;
         float:left;
         border-bottom:1px solid #E9E9E9;
         padding:10px 0px 10px 0px;
@@ -409,15 +409,15 @@
     }
 
     .slider-3 {
-        display:none;
+        display:none!important;
     }
     
     .slider-img-3 {
-        display:none;
+        display:none!important;
     }
     
     .slider-3 p{
-        display:none;
+        display:none!important;
     }
     
     .slider-3 .slick-next{
@@ -441,13 +441,13 @@
     }
 
     .slider-4 {
-        display:block;
+        display:block!important;
         width:100%;
         height:auto;
     }
     
     .slider-img-4 {
-        display:block;
+        display:block!important;
         width:90%;
     }
     
