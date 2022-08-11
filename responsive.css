@@ -410,10 +410,15 @@
         height:auto;
     }
 
+    .storebrand {
+        width:100%;
+        margin:0 auto;
+    }
+
     .storebrand-item {
         border:1px solid #E9E9E9;
         float:left;
-        width:33%;
+        width:30%;
         margin:0 auto;
         text-align: center;
         margin-right:0px;
@@ -431,7 +436,7 @@
     .sp-side-menu {
         display:block;
         border-bottom: 1px solid #424242;
-        width:100px;
+        width:100%;
     }
 
     .sp-side-menu-list {
@@ -454,6 +459,71 @@
         font-size:12px;
     }
 
+    .bottom {
+        border-top:1px solid #EDEDED;
+        border-bottom:1px solid #EDEDED;
+        height:50px;
+        width:100%;
+        margin-top:90px;
+    }
+    
+    .c-bottom {
+        width:100%;
+        margin:0 auto;
+    }
+    
+    .bottom-logo {
+        text-align:center;
+        line-height:50px;
+    }
+    
+    .bottom-logo img {
+        width:40%;
+    }
+    
+    .bottom-sns {
+        display:none;
+    }
+    
+    .fa-brands {
+        display:none;
+    }
+
+    footer {
+        width:100%;
+        margin:0 auto;
+        margin-bottom:0px;
+    }
+    
+    .footer-left {
+        padding-top:0px;
+        padding-left:0px;
+        padding-right:0px;
+        margin-top:20px;
+        text-align:center;
+    }
+    
+    .footer-left-item {
+        font-size:12px;
+    }
+
+    .footer-right-type {
+        display:none;
+    }
+
+    .footer-right-item {
+        display:none;
+    }
+
+    .sp-bottom-sns {
+        display:block;
+        width:100%;
+        margin:0 auto;
+    }
+    
+    
+
+    
     
     
     
