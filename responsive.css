@@ -481,7 +481,7 @@
     
     .bottom-logo img {
         width:40%;
-        padding:0px 0px 20px 20px;
+        margin-left:20px;
     }
     
     .bottom-sns {
@@ -507,6 +507,11 @@
         text-align:center;
     }
     
+    .footer-left p{
+        margin-top:10px;
+    }
+
+
     .footer-left-item {
         font-size:12px;
     }
@@ -552,6 +557,10 @@
         width:100%;
         text-align:center;
         padding:10px 0px;
+    }
+
+    .fa-brands {
+        margin-left:10px;
     }
     
     
