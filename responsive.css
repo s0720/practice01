@@ -471,10 +471,11 @@
         width:100%;
         margin:0 auto;
     }
-    
+
     .bottom-logo {
+        float:none;
         text-align:center;
-        line-height:50px;
+        line-height:65px;
     }
     
     .bottom-logo img {
@@ -505,6 +506,10 @@
     
     .footer-left-item {
         font-size:12px;
+    }
+
+    .footer-right {
+        display:none;
     }
 
     .footer-right-type {
